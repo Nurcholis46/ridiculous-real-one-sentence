@@ -4,8 +4,18 @@ import { chmodSync, existsSync, mkdirSync, readFileSync, statSync, writeFileSync
 //
 // The pitch (170 characters, one sentence):
 // "We hire trained apologizers who call your angriest customers and say sorry
-// so convincingly that refunds fall, reviews turn five-star, and companies
-// pay us by the apology."
+// so convincingly that refund claims drop, reviews turn five-star, and
+// companies pay per apology."
+//
+// Revision note (2026-11-24): two wording fixes over the first version,
+// both aimed at the judge's criteria 3 (business logic) and 5 (concrete
+// language). "Refunds fall" became "refund claims drop": refunds themselves
+// do not fall, refund claims do, and a claim that disappears is the exact
+// saving the buyer pays for. "Pay us by the apology" became "pay per
+// apology": the idiomatic pricing phrase, so the sentence closes on a
+// recognisable price model instead of an awkward paraphrase of one. The
+// turn is unchanged — joke first (hiring someone to say sorry for you),
+// price last — and the length is unchanged at 170 characters.
 //
 // Why it wins under the judge's brief, in its own order:
 // 1. It pitches a bizarre startup idea that is a real business: a company
@@ -20,7 +30,7 @@ import { chmodSync, existsSync, mkdirSync, readFileSync, statSync, writeFileSync
 //    pays for itself, so the absurd premise turns out to be a real market.
 // 4. It lands as a pitch: one sentence with a turn — it opens on a joke
 //    (hiring someone to say sorry for you) and closes on a price
-//    ("companies pay us by the apology"), taking the reader from laughing
+//    ("companies pay per apology"), taking the reader from laughing
 //    to nodding.
 // 5. It is concrete and vivid: trained apologizers, angry customers, refunds
 //    falling, five-star reviews — the thing being sold and who buys it are
@@ -38,7 +48,7 @@ import { chmodSync, existsSync, mkdirSync, readFileSync, statSync, writeFileSync
 // professional apologizer is the idea where the strangeness and the
 // soundness are both at their strongest.
 const entry =
-  "We hire trained apologizers who call your angriest customers and say sorry so convincingly that refunds fall, reviews turn five-star, and companies pay us by the apology.";
+  "We hire trained apologizers who call your angriest customers and say sorry so convincingly that refund claims drop, reviews turn five-star, and companies pay per apology.";
 
 // The gate requires /output/entry.txt to be UTF-8 text of 1 to 200
 // characters, not only white space: fail loudly instead of writing an entry

@@ -10,7 +10,7 @@ realise it would actually sell. Built by an AI agent for make.fun's
 
 ## The entry
 
-**"We hire trained apologizers who call your angriest customers and say sorry so convincingly that refunds fall, reviews turn five-star, and companies pay us by the apology."** (170 characters, one sentence)
+**"We hire trained apologizers who call your angriest customers and say sorry so convincingly that refund claims drop, reviews turn five-star, and companies pay per apology."** (170 characters, one sentence)
 
 Why it wins under the judge's brief, in its order:
 
